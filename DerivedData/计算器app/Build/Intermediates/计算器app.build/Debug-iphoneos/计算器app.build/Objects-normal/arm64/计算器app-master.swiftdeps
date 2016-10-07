@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "10fcdbf2b15429db57faa8392c6c8bbf"
+build_time: [529163347, 181954000]
+inputs:
+  "/Users/Lambert/Desktop/Lambert/\u8BA1\u7B97\u5668app/\u8BA1\u7B97\u5668app/calaulator.swift": [529163344, 0]
+  "/Users/Lambert/Desktop/Lambert/\u8BA1\u7B97\u5668app/\u8BA1\u7B97\u5668app/ViewController.swift": [529163344, 0]
+  "/Users/Lambert/Desktop/Lambert/\u8BA1\u7B97\u5668app/\u8BA1\u7B97\u5668app/AppDelegate.swift": [527841069, 0]

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1DF765D91D93B22D006AC21F"
+               BuildableName = "&#x8ba1;&#x7b97;&#x5668;app.app"
+               BlueprintName = "&#x8ba1;&#x7b97;&#x5668;app"
+               ReferencedContainer = "container:&#x8ba1;&#x7b97;&#x5668;app.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1DF765ED1D93B22D006AC21F"
+               BuildableName = "&#x8ba1;&#x7b97;&#x5668;appTests.xctest"
+               BlueprintName = "&#x8ba1;&#x7b97;&#x5668;appTests"
+               ReferencedContainer = "container:&#x8ba1;&#x7b97;&#x5668;app.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1DF765F81D93B22D006AC21F"
+               BuildableName = "&#x8ba1;&#x7b97;&#x5668;appUITests.xctest"
+               BlueprintName = "&#x8ba1;&#x7b97;&#x5668;appUITests"
+               ReferencedContainer = "container:&#x8ba1;&#x7b97;&#x5668;app.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1DF765D91D93B22D006AC21F"
+            BuildableName = "&#x8ba1;&#x7b97;&#x5668;app.app"
+            BlueprintName = "&#x8ba1;&#x7b97;&#x5668;app"
+            ReferencedContainer = "container:&#x8ba1;&#x7b97;&#x5668;app.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1DF765D91D93B22D006AC21F"
+            BuildableName = "&#x8ba1;&#x7b97;&#x5668;app.app"
+            BlueprintName = "&#x8ba1;&#x7b97;&#x5668;app"
+            ReferencedContainer = "container:&#x8ba1;&#x7b97;&#x5668;app.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1DF765D91D93B22D006AC21F"
+            BuildableName = "&#x8ba1;&#x7b97;&#x5668;app.app"
+            BlueprintName = "&#x8ba1;&#x7b97;&#x5668;app"
+            ReferencedContainer = "container:&#x8ba1;&#x7b97;&#x5668;app.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

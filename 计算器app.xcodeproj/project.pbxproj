@@ -14,6 +14,7 @@
 		1DF765E81D93B22D006AC21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF765E61D93B22D006AC21F /* LaunchScreen.storyboard */; };
 		1DF765F31D93B22D006AC21F /* ___appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF765F21D93B22D006AC21F /* ___appTests.swift */; };
 		1DF765FE1D93B22D006AC21F /* ___appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF765FD1D93B22D006AC21F /* ___appUITests.swift */; };
+		1DF7660C1D93B32D006AC21F /* calaulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7660B1D93B32D006AC21F /* calaulator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1DF765F91D93B22D006AC21F /* 计算器appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计算器appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF765FD1D93B22D006AC21F /* ___appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___appUITests.swift"; sourceTree = "<group>"; };
 		1DF765FF1D93B22D006AC21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF7660B1D93B32D006AC21F /* calaulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calaulator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1DF765DD1D93B22D006AC21F /* AppDelegate.swift */,
+				1DF7660B1D93B32D006AC21F /* calaulator.swift */,
 				1DF765DF1D93B22D006AC21F /* ViewController.swift */,
 				1DF765E11D93B22D006AC21F /* Main.storyboard */,
 				1DF765E41D93B22D006AC21F /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF7660C1D93B32D006AC21F /* calaulator.swift in Sources */,
 				1DF765E01D93B22D006AC21F /* ViewController.swift in Sources */,
 				1DF765DE1D93B22D006AC21F /* AppDelegate.swift in Sources */,
 			);
@@ -417,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MJ3UCYW6D9;
 				INFOPLIST_FILE = "计算器app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lambert.com.---app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MJ3UCYW6D9;
 				INFOPLIST_FILE = "计算器app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lambert.com.---app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +520,7 @@
 				1DF766041D93B22D006AC21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DF766051D93B22D006AC21F /* Build configuration list for PBXNativeTarget "计算器appTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				1DF766071D93B22D006AC21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DF766081D93B22D006AC21F /* Build configuration list for PBXNativeTarget "计算器appUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				1DF7660A1D93B22D006AC21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
